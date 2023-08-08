@@ -1,0 +1,75 @@
+body{
+    background-color: palevioletred;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.container{
+    width: 500px;
+    background-color:pink;
+    padding: 50px;
+    border-radius: 60px;
+    border: 2px solid palevioletred;
+
+    text-align: center;
+
+
+}
+h2{
+    color: red;
+    font-weight:bolder;
+    position: center;
+    padding-bottom: -10px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+.love-calculator{
+    margin-top: 10px;
+    
+}
+label{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input[type="text"]{
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    border-color: pink;
+    text-align: center;
+    border-radius: 60px;
+
+}
+button{
+    background-color:palevioletred;
+    color: aliceblue;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 60px;
+    cursor: pointer;
+}
+#result{
+
+    margin-top: 10px;
+    font-size: 30px;
+    color:red;
+
+    
+}
+h5{
+    position: center;
+    margin-bottom: -40px;
+    
+}
